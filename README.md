@@ -18,3 +18,15 @@
 4. At the end of the two states, the cars' Red LED will be off and both Yellow LEDs start blinking for 5 seconds and the pedestrian's Green LED is still on.
 5. After the five seconds the pedestrian Green LED will be off and both the pedestrian Red LED and the cars' Green LED will be on.
 6. Traffic lights signals are going to the normal mode again.
+
+##### System Layers:
+1. Application Layer.
+2. Electronic Circuit Units (ECUAL) layer.
+3. Microcontroller Abstraction Layer (MCAL).
+4. Hardware Layer.
+
+##### Drivers used:
+1. Digital Input/Output (DIO).
+2. External Interrupt (ExtINT).
+3. Timer for delay.
+
